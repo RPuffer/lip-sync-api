@@ -1,20 +1,25 @@
 doctype html
 html
-  head
-    title= title
-    script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    script(type='text/javascript')
-			$("<audio id='audioElement'>").appendTo("body");
-			$("#audioElement").attr("src", "/audio.wav").attr("autoplay", "autoplay");
-
-			$("#audioElement").bind("timeupdate", function() {
-				var currentTime = parseInt(this.currentTime, 10);
-				if(currentTime == 2) {
-						console.log("2 seconds in");
-						$(this).unbind("timeupdate");
-				}
-			});
-    )
-  body
-    h1 Hello World
+	head
+		title= title
+		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(type='text/javascript' src='/javascripts/timing.js')
+		script(type='text/javascript' src='/javascripts/animation.js')
+	body
+		div
+			img(id='myImage' src='/images/X.png')
+			audio(id='whatATwistAudio' src='/whatATwist.mp3')
+			button(id='whatATwistBtn') What a Twist
+		div
+			img(id='myImage2' src='/images/X.png')
+			audio(id='firstOfAllAudio' src='/firstOfAll.mp3')
+			button(id='firstOfAllBtn') Okay, First of All
+		div
+			img(id='myImage3' src='/images/X.png')
+			audio(id='wrektAudio' src='/wrekt.mp3')
+			button(id='wrektBtn') Rekt
+		div
+			img(id='myImage4' src='/images/X.png')
+			audio(id='gotImAudio' src='/gotIm.mp3')
+			button(id='gotImBtn') Got eeeem

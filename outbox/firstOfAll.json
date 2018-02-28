@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "soundFile": "/Users/PUF1501/Git/lip-sync-api/inbox/firstOfAll.wav",
+    "duration": 1.77
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.22, "value": "X" },
+    { "start": 0.22, "end": 0.27, "value": "F" },
+    { "start": 0.27, "end": 0.60, "value": "C" },
+    { "start": 0.60, "end": 0.74, "value": "B" },
+    { "start": 0.74, "end": 0.80, "value": "G" },
+    { "start": 0.80, "end": 0.92, "value": "E" },
+    { "start": 0.92, "end": 1.11, "value": "C" },
+    { "start": 1.11, "end": 1.16, "value": "B" },
+    { "start": 1.16, "end": 1.20, "value": "G" },
+    { "start": 1.20, "end": 1.27, "value": "E" },
+    { "start": 1.27, "end": 1.48, "value": "H" },
+    { "start": 1.48, "end": 1.77, "value": "X" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "soundFile": "/Users/PUF1501/Git/lip-sync-api/inbox/wrekt.wav",
+    "duration": 0.97
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.18, "value": "X" },
+    { "start": 0.18, "end": 0.30, "value": "B" },
+    { "start": 0.30, "end": 0.37, "value": "C" },
+    { "start": 0.37, "end": 0.51, "value": "B" },
+    { "start": 0.51, "end": 0.97, "value": "X" }
+  ]
+}
